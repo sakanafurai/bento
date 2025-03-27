@@ -11,9 +11,9 @@
 
 :root {
   /* Font Size */
-  --fg-primary: 12vh; /* Time and Greetings */
-  --fg-secondary: 3vh; /* Greetings and Weather widger */
-  --fg-date: 8vh; /* Date */
+  --fg-primary: 18vh; /* Time and Greetings */
+  --fg-secondary: 6vh; /* Greetings and Weather widger */
+  --fg-date: 12vh; /* Date */
   --fg-list: 2vh; /* Links List */
   --icon: 3vh; /* Icon Size */
 
@@ -160,14 +160,14 @@ body {
 #separator,
 #minutes {
   font-size: var(--fg-primary);
-  font-weight: bolder;
+  /*font-weight: bolder;*/
   color: var(--fg);
 }
 
 #month,
 #day {
   font-size: var(--fg-date);
-  font-weight: bold;
+  /*font-weight: bold;*/
   color: var(--fg);
 }
 
@@ -187,7 +187,7 @@ body {
 
 .weatherValue p {
   font-size: var(--fg-secondary);
-  font-weight: bolder;
+  /*font-weight: bolder;*/
   margin-left: 15px;
   color: var(--fg);
 }
